@@ -4,8 +4,10 @@
   "description": "This app used to track all your day to day habits",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=14.20.1"
   },
   "keywords": [
     "habits",
